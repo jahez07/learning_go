@@ -6,4 +6,13 @@ In this tutorial you'll create two modules. The first is a library which is inte
 This tutorial's sequence includes seven brief topics that each illustrate a different part of the language.
 1. Create a module -- Write a smal module with functions you can call from another module.
 2. [Call your code from another module](#Call-your-code-from-another-module) -- IMport and use your module.
-3. 
+3. [Return and handle error](#return-and-handle-an-error) -- Add a simple error handling.
+4. [Return a random greeting](#return-a-random-greeting) -- Handle data in slices (Go's dynamically-sized arrays).
+5. [Return greetings for multiple people](#return-greetings-for-multiple-people) -- Store key/value pairs in a map. 
+6. [Add a test](#add-a-test) -- Use Gos's built-in unit testing features to test your code. 
+7. [Compile and install the application](#compile-and-install-the-application) -- Compile and install your code locally.
+
+## Create a module
+
+## Call your code from another module
+In the [previous section](#create-a-module), you created a greetings module.
