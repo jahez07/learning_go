@@ -17,7 +17,12 @@ This tutorial's sequence includes seven brief topics that each illustrate a diff
 * **A tool to edit your code.** Any text editor you have will work fine. Most text editors have good support for Go. The most popular are VSCode (free), GoLand (paid), and Vim (free).
 * **A command terminal.** Go works well using any terminal on Linux and Mac, and on PowerShell or cmd in Windows.
 
-
+### Start a module that others can use
+Start by creating a Go module. In a module, you collect one or more related packages for a discrete and useful set of functions. For example, you might create a module with packages that have functions for doing financial analysis so that others writing financial analysis can use your work.
+<br>
+Go code is grouped into packages, and packages are grouped into modules. Your module specifies dependencies needed to run your code, including the Go version and the set of other modules it requires.
+<br>
+As you add or improve functionality 
 
 ## Create a module
 
