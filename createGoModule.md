@@ -22,7 +22,12 @@ Start by creating a Go module. In a module, you collect one or more related pack
 <br>
 Go code is grouped into packages, and packages are grouped into modules. Your module specifies dependencies needed to run your code, including the Go version and the set of other modules it requires.
 <br>
-As you add or improve functionality 
+As you add or improve functionality in your module, you publish new versions of the module. Developers writing code that calls functions in your module can import the module's  updated packages and test the new version before putting into production use. 
+1. Open a command prompt and cd to your home directory. 
+On Linux or Mac:
+```bash
+cd
+```
 
 ## Create a module
 
