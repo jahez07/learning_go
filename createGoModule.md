@@ -24,9 +24,11 @@ Go code is grouped into packages, and packages are grouped into modules. Your mo
 <br>
 As you add or improve functionality in your module, you publish new versions of the module. Developers writing code that calls functions in your module can import the module's  updated packages and test the new version before putting into production use. 
 1. Open a command prompt and cd to your home directory. 
-On Linux or Mac:
+2. Create a greetings directory for your Go module source code. 
+For example, from your home directory, use the following commands:
 ```bash
-cd
+mkdir greetings
+cd greetings
 ```
 
 ## Create a module
