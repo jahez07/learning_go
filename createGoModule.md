@@ -30,6 +30,13 @@ For example, from your home directory, use the following commands:
 mkdir greetings
 cd greetings
 ```
+3. Start your module using the go mod init command.
+Run the go mod init command, giving it your module path -- here, use example.com/greetings. If you publish a module, this path must be a from which your module can be downloaded by Go tools. That would be your code's repository. 
+```bash
+$ go mod init example.com/greetings
+go: creating new go.mod: module example.com/greetings
+```
+The `go mod init` command creates a go.mod file to track your code's dependencies. So far, the file includes only the name of your module and the Go version your code supports. But as you add depenedencies, the `go.mod` file will list the versions your code depends on. This keeps builds reproducible and gives you direct control over which version to use.
 
 ## Create a module
 
